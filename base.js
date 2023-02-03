@@ -8,7 +8,17 @@ Também né! Sendo a boa mineira que é, nunca esquece seu famoso pão de queijo
 Não canso de ouvir a Maria:
 "Joooooooooooãooooooooo, o cafe tá prontinho aqui. Veeeeeeem!"
 `
+const arquivos = [
+    'Atenção.jpg',
+    'FOTO.jpeg',
+    'Meu gatinho.jpg',
+    'Meu gatinho.JPG',
+    'Meu gatinho.JPEG',
+    'Marido.png',
+    'lista de compras.txt'
+]
 
 module.exports = {
-    texto
+    texto,
+    arquivos
 }
