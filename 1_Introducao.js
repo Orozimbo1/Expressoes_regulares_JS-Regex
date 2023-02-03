@@ -1,6 +1,6 @@
 const { texto } = require('./base');
 
-// Tags
+// Flags
 // g - global (encotrar todas ocorrências)
 // i - insensitive (encontra palavras que comecem com a letra minúscula ou maiúscula)
 // () - grupos (separa em grupos)
