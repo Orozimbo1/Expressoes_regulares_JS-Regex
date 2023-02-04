@@ -20,11 +20,35 @@ const arquivos = [
 
 const html = '<p>Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>';
 
-const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWYZ abcdefghijklmnopqrstuvwyz @! 0123456789 !$'
+const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWYZ abcdefghijklmnopqrstuvwyz @! 0123456789 !$';
+
+const cpfs = `
+Os cpfs são:
+123.123.123-00 098.765.432-10 321.654.987-01
+
+
+102.938.475-56
+`;
+
+const ips = `
+
+Os Ips são:
+0.0.0.0
+
+255.255.255.255
+
+168.233.0.25
+
+344.0999.1982.0
+
+66565.1525.0909.9
+`;
 
 module.exports = {
     texto,
     arquivos,
     html,
-    alfabeto
+    alfabeto,
+    cpfs,
+    ips
 }

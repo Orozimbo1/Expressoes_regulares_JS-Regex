@@ -20,3 +20,5 @@ console.log(alfabeto.match(/\w+/g)) // Short hands, Vai retornar qualquer caract
 console.log(alfabeto.match(/\W+/g)) // Short hands, Negação vai retornar qualquer caractere que não seja alfanumérico incluindo o _
 console.log(alfabeto.match(/\d+/g)) // Short hands, Vai retornar qualquer caractere seja numérico
 console.log(alfabeto.match(/\D+/g)) // Short hands, Negação vai retornar qualquer caractere que não seja numérico
+console.log(alfabeto.match(/\s+/g)) // Short hands, Vai retornar todos os espaços
+console.log(alfabeto.match(/\D+/g)) // Short hands, Negação vai retornar qualquer caractere que não seja espaço 
