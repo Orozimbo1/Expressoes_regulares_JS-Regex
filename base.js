@@ -19,6 +19,9 @@ const arquivos = [
 ]
 
 const html = '<p>Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>';
+const html2 = `<p
+ class="teste expressôes regulares">
+Olá mundo</p> <p>Olá mundo</p> <div>Sou a div</div>`;
 
 const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWYZ abcdefghijklmnopqrstuvwyz @! 0123456789 !$';
 
@@ -48,6 +51,7 @@ module.exports = {
     texto,
     arquivos,
     html,
+    html2,
     alfabeto,
     cpfs,
     ips
